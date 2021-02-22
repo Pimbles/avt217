@@ -1,0 +1,57 @@
+/********
+
+style rule setup
+	selector
+	{
+		propety: value;
+	}
+
+*********/
+@font-face 
+{
+  font-family: "RocknRollOne";
+  src: url("../fonts/RocknRollOne-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+
+}
+h1
+{
+	color: darkred;
+	text-align: center;
+	text-shadow: 2px 2px black;
+	font-family: RocknRollOne;
+}
+
+h2
+{
+	color: cornsilk;
+	text-align: center;
+	text-shadow: 2px 2px black;
+	font-family: RocknRollOne;
+}
+
+body
+{
+	background-color: rgb(70, 70, 70);
+	margin-top: 100px;
+
+}
+
+p
+{
+	color: cornsilk;
+	text-shadow: 2px 2px black;
+	font-family: RocknRollOne;
+	font-size: larger;
+}
+
+a
+{
+	color: cornsilk;
+}
+
+a:hover
+{
+	color: rgb(200, 0, 0);
+}
